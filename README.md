@@ -56,6 +56,15 @@ radio-map-dataset/
 
 ```
 
+## Dataset Download
+
+- Public download links (provide one or more)
+  - Google Drive: <https://drive.google.com/file/d/1C9oSUC0XBwRWs5Ab0B9JAtqPkT8PA44T/view?usp=sharing>
+  - Baidu Netdisk: <https://pan.baidu.com/s/11WlXOs6HQP2zift4MGO2_A?pwd=htfs>
+
+- Access notes
+  - Citation: If you use this dataset, please cite this repository and the corresponding DOI.
+
 ## Contact
 
 For questions or collaboration opportunities, please contact:
