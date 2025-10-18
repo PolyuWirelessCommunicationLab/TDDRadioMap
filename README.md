@@ -1,1 +1,73 @@
-# TDDRadioMap
+# TDDRadioMap Dataset
+
+## Overview
+
+This repository contains comprehensive radio map datasets designed for wireless communication research, including radio propagation modeling, coverage prediction, and network planning applications.
+
+## Dataset Description
+
+The dataset comprises two complementary sub-datasets:
+
+### 1. 3D Radio Map with Multi-Resolution Spatial Data
+
+The 3D radio map dataset provides three-dimensional radio signal strength measurements across various spatial resolutions, enabling multi-scale analysis of radio propagation patterns.
+
+**Key Features:**
+- Multi-resolution spatial grids for different analysis granularities
+- 3D coordinate system (X, Y, Z) with corresponding signal measurements
+
+**Spatial Resolutions:**
+- High resolution: [e.g., "1m × 1m × 1m grid"]
+- Low resolution: [e.g., "4m × 4m × 4m grid"]
+
+### 2. Dynamic 2D Radio Map
+
+The dynamic 2D radio map captures temporal variations in radio signal distribution, reflecting changes due to environmental factors, user mobility, or network dynamics.
+
+**Key Features:**
+- Time-series radio signal measurements
+- 2D spatial grid with temporal dimension
+- Temporal resolution: [specify, e.g., "measurements every 1 second/minute/hour"]
+- Duration: [specify total time period]
+
+## Dataset Structure
+
+```
+radio-map-dataset/
+├── 3DRadioMap/
+│   ├── 3D_Building_Structure/
+│   │   ├── env_1.npy
+│   │   ├── ...
+│   │   └── env_1000.npy
+│   ├── 3D_RadioMap_1m_Res/
+│   │   ├── env_1.npy
+│   │   ├── ...
+│   │   └── env_250.npy
+│   └── 3D_RadioMap_4m_Res/
+│       ├── env_1.npy
+│       ├── ...
+│       └── env_1000.npy
+├── 2D_Dynamic_RadioMap/
+│   ├── timeseries_data.csv
+│   ├── metadata.json
+│   └── timestamps.txt
+├── README.md
+└── LICENSE
+
+```
+
+## Contact
+
+For questions or collaboration opportunities, please contact:
+
+- **Name**: Lin ZHU    |    Zishen LIU
+- **Email**: lin-eee.zhu@connect.polyu.hk | zishen.liu@connect.polyu.hk
+- **Institution**: The Hong Kong Polytechnic University
+
+
+## Changelog
+
+### Version 1.0 (2025-10-18)
+- Initial release
+- 3D radio maps at three spatial resolutions
+- Dynamic 2D radio map with temporal data
