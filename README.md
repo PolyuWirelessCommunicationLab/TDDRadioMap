@@ -27,8 +27,6 @@ The dynamic 2D radio map captures temporal variations in radio signal distributi
 **Key Features:**
 - Time-series radio signal measurements
 - 2D spatial grid with temporal dimension
-- Temporal resolution: [specify, e.g., "measurements every 1 second/minute/hour"]
-- Duration: [specify total time period]
 
 ## Dataset Structure
 
