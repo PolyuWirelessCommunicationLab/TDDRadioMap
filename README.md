@@ -46,9 +46,22 @@ radio-map-dataset/
 │       ├── ...
 │       └── env_1000.npy
 ├── 2D_Dynamic_RadioMap/
-│   ├── timeseries_data.csv
-│   ├── metadata.json
-│   └── timestamps.txt
+│   ├── 2D_Building_Layout
+│   │   ├── building_ground_mask_v2v_000_00.png
+│   │   ├── ...
+│   │   └── building_ground_mask_v2v_999_20.png
+│   ├── Transmitter
+│   │   ├── tx_000_00.png
+│   │   ├── ...
+│   │   └── tx_000_19.png
+│   ├── 2D_Radio_Map
+│   │   ├── RSS_000_00_00.png
+│   │   ├── ...
+│   │   └── RSS_999_19_20.png
+│   └── 2D_Radio_Rendered
+│       ├── render_000_00_00.png
+│       ├── ...
+│       └── render_000_00_00.png
 ├── README.md
 └── LICENSE
 
